@@ -1,0 +1,84 @@
+.post{
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.op   .header,
+.post .header{
+    padding-bottom: 20px;
+}
+
+.op .content{
+    padding-bottom: 10px;
+    display: inline
+}
+
+.op img{
+    margin-bottom: 10px;
+}
+.op   .header .title,
+.post .header .title{
+    font-weight: bold;
+    color: #0000aa;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.op   .header .name,
+.post .header .name{
+    font-weight: bold;
+    color: #00aa00;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.op   .header .date,
+.post .header .date{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.op   .header .no,
+.post .header .no{
+    display: inline-block;
+}
+
+.op   .content .quote,
+.post .content .quote{
+    color: #33aa22
+}
+
+.post .content .quotelink{
+    font-weight: bold;
+    color: #aa0000;
+    text-decoration: none;
+}
+
+.image {
+    float: left;
+    padding-right: 10px;
+    width: 250px;
+}
+
+.image.full {
+    width: 750px;
+}
+
+.op   .content .text,
+.post .content .text{
+}
+
+.clear:after{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.op   .content .image_header,
+.post .content .image_header {
+    padding-bottom: 10px;
+    color: #888888;
+    font-size: 12px;
+}
